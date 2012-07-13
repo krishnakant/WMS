@@ -1,0 +1,10 @@
+
+ 
+<asp:TextBox runat="server" cssClass="cssTextBox"></asp:TextBox>
+
+<asp:TextBox runat="server" skinid="txtupper" cssClass="OnlyCaps"></asp:TextBox>
+<asp:Button runat="server" cssClass="cssButton"></asp:Button>
+
+<asp:DropDownList runat="server" cssClass="cssDropDownList"></asp:DropDownList>
+
+<asp:Label runat="server" cssClass="cssLabel"></asp:Label>

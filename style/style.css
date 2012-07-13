@@ -1,0 +1,235 @@
+html, body {height: 100%; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#797C7C;} /* now mozilla is happy! */
+html, ul, h1, h2, h3, h4, h5, h6, form, fieldset {margin: 0; padding: 0; border: 0; list-style-type:none;}
+body{font:11px Verdana; color:#797C7C; margin:0 auto;}
+#login{background:url(../images/login_new.jpg) no-repeat; width:503px; height:274px;margin-left:25%;margin-top:5%;margin-bottom:4%;}
+.cssLogin{width:220px; margin-left:35px; margin-top:110px; font-size:12px; color:#1B0B6E;}
+.cssLoginBg{background:url(/images/bg.jpg) repeat-x;}
+.input{height:18px; color:#DEDEDE;}
+.button{background:url(images/log_button.jpg) no-repeat; width:65px; height:23px;}
+.paddinglft{padding-left:10px;}
+#wrapper{width:100%; margin:0 auto; padding:0; background:#FFFFFF;}
+#header{width:auto; margin:0; padding:inherit; border-bottom:solid 1px #dedede;}
+.cssCompanyName {
+	font-family: Tahoma;
+	font-size: 22pt;
+	font-weight: bold;
+	color: #4d89d1;
+	padding:15px 0 0 25px;
+	text-decoration: none;
+}
+
+.cssmarg{ margin-top:20px;}
+html* .cssmarg{ margin-top:-4px;}
+.upperimg{background:url(../images/form_header_bg.jpg) repeat-x top; width:100%; height:23px;}
+.logoheader{width:100%; background:#f9f9f9 url(../images/bg_header.jpg); height:86px;}
+.logotext{font-family:"Lucida Sans Unicode"; font-size:56px; color:#06B5C6; margin:15px; width:50%; float:left;}
+.toplinks{xmargin-right:4px; margin-top:-50px; width:18%; float:right;}
+.upperlinks{display:block; list-style:none;}
+.upperlinks li{display:inline; padding:4px;}
+.Label {font-size:11px; color:#2889BC;}
+.headerbg{background: url(/WMS/images/headerbg.jpg) repeat-x; height:105px; width:100%;}
+.header_left{ padding-top:25px;}
+html* .header_left{ padding-top:23px;}
+
+/***************************************************/
+/* GENERAL SETTINGS FOR ALL FIELDSET */
+fieldset{
+	margin: 0px;
+	padding: 8px;
+	max-width:100%;
+	color:#018ace;
+}
+fieldset.parentBorder{
+	border: 1px solid #ADCEE9;
+}
+fieldset.sectionBorder{
+	border: 1px solid #ADCEE9;
+}
+/**************************************************/
+
+/* GENERAL SETTINGS FOR ALL LEGENDS */
+legend{
+	font: bold 9pt Tahoma;
+	text-decoration: none;
+	color: #003366;
+}
+legend.pageTitle{
+	text-transform: uppercase;
+}
+legend.cssError{
+	font: bold 8pt Tahoma;
+	color:#CC0000;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+/**********************************************************/
+
+.flo_left{float:center;}
+.flo_right{float:right;}
+.Navigation{
+font:bold 14px; 
+color:#00678e; 
+left:2%;
+top:2%;
+}
+.upperlinks li a{font:11px Verdana; color:#1B0B6E; text-decoration:none;}
+.cssButtonold{background: height:18px; border:1px solid #00678e; font-size:11px;
+font-weight:bold;}
+.cssButton{ /* General Button Definition */
+    background: url(/WMS/images/btn_bg.jpg) repeat-x;
+	font:11px verdana;
+	border:#285c9b 1px solid;
+	color:#ffffff;
+	text-decoration: none;
+	letter-spacing: 1px;
+	height: 19px;
+	cursor:pointer;
+}
+.cssRadioList{font: 8pt;color:#000000;text-decoration: none;height: 20px;padding-left:2px;padding-right:2px;}
+.upperlinks li a:hover{font-family:Verdana; size:12px; color:#797C7C; text-decoration:underline;}
+#heararkey{margin:8px 0 0 35px; width:50%;}
+#formcontainer{margin:0 auto; width:93%; background:#ffffff; border:1px solid #B5B5B5; position:relative; top:25px;}
+.heading{font-family:"Trebuchet MS"; font-size:22px; color:#7E7C7C; margin:8px 0 15px 12px;}
+.cssTdLeft{font: 14px Trebuchet MS; color:#797C7C; text-decoration: none; height: 50px; width:25%; text-align:left; padding-left:15px; background:#F3F3F3; border-bottom:1px solid #EDEDED;}
+.cssTdRight{font: 14px Trebuchet MS; color:#797C7C; text-decoration: none; height: 50px; width:25%; text-align:left; padding-left:15px; background:#EEEEEE; border-bottom:1px solid #F5F5F5;}
+.cssButtonPanel{
+	padding: 3px 8px 3px 0px;
+	margin: 0px;
+	text-align: right;
+	width:50%;
+	margin-left:10px;
+	margin-right:10px;
+	
+}
+.footer{width:100%; margin-bottom:20px; margin-top:10px; float:left;}
+.copyright{font:11px Verdana; color:#1B0B6E; text-align:center; margin:17px 0 10px 0;}
+.cssBorder{border:ridge 1px #333333;}
+.cssHr{background:url(images/hr_img.jpg) repeat-x; width:100%;}
+.cssinput{width:65%;}
+.asp_label{font:12px Verdana; color:#000000;}
+.cssTextBox{
+	font: 8pt;
+	color:#000000;
+	text-decoration: none;
+	text-align: left;
+	padding-left:2px;
+	padding-right:2px;
+	background:#ffffff; 
+	border:1px solid #00678e;
+	
+}
+
+/*fieldset{border:solid 1px #333333; width:98%; margin:10px;}
+legend{font:17px "verdana"; color:#1B0B6E; margin-left:10px;}*/
+.width_email{width:210px;}
+.cssLabel{
+	font: 9pt Tahoma;
+	color:#1b0b6e;
+	text-decoration: none;
+	height: 30px;
+	width: 35%;
+	text-align:right;
+	padding-right:5px;
+}
+.cssLabelLeft{
+	font: 9pt Tahoma;
+	color:#000000;
+	text-decoration: none;
+	height: 30px;
+	width: 35%;
+	text-align:left;
+	padding-left:5px;
+}
+.cssLabel1{
+	font: 9pt Tahoma;
+	color:#000000;
+	text-decoration: none;
+	height: 30px;
+	
+	
+	
+}
+.OnlyCaps{ text-transform:uppercase; } 
+.cssDropDownList{
+	font: 8pt Tahoma;
+	color:#000000;
+	text-decoration: none;
+	height: 20px;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+.cssLabelRed
+{
+	font: bold 15pt Tahoma;
+	color: red;
+	text-decoration: none;
+	height: 30px;
+	width: 35%;
+	text-align: right;
+	padding-right: 5px;
+}
+.cssChkBoxLabel{
+	font: 8pt Tahoma;
+	color:#000000;
+	text-decoration: none;
+	text-align:left;
+	padding-right:5px;
+	white-space:nowrap;
+	width:100%;
+}
+.cssChkBoxLabelRed{
+	font: 8pt Tahoma;
+	color:#000000;
+	text-decoration: none;
+	text-align: left;
+	white-space:nowrap;
+	padding-right:5px;
+	border:2px solid red;
+}
+
+.cssRequiredField{
+	font: bold 8pt Tahoma;
+	color:#FF0000;
+	text-decoration: none;
+}
+.cssElements{
+	font: bold 14pt Tahoma;
+	color:#000000;
+	text-decoration: none;
+	padding-left:5px;
+	}
+
+
+.cssGrid{border:solid 1px #333333; width:100%;}
+.grid_header{font:bold 15px Verdana; text-align:center; color:#1B0B6E; height:25px;}
+.css_row{background:#ffffff; height:25px;}
+.css_Alterrow{background:#f5f5f5; height:25px;}
+.border{border:solid 1px #333333;}
+.label_main{font:bold 28px Trebuchet MS;color:#F30020; text-align:center; margin:10px;}
+.cssGridHeader { /* GENERAL DEFINITION FOR TABLE HEAD*/
+	font: bold 10pt Tahoma;
+	color:#FFFFFF;
+	text-decoration:none;
+	padding: 3px;
+	height:25px;
+	background-color:#006699;
+	width:100%;
+	text-align:left;
+	
+}
+.cssGridHeader a{ 
+	color:#FFFFFF;
+	font: 10pt Tahoma; margin-left:10px;
+}
+
+
+.cssGridHeader a:hover{ 
+	color:#FFFF00;
+	font: 10pt Tahoma;
+}
+.cssGridAction{
+	text-align:center;
+	width:40px;
+	font: 10pt Tahoma;
+}

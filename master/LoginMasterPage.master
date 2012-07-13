@@ -1,0 +1,34 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="LoginMasterPage.master.cs" Inherits="master_LoginMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>Warranty Management System</title>
+    <link href="../style/style.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="upperimg"></div>
+    <div >
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    <div class="upperimg">
+    
+    </div><div class="copyright"> <p class="flo_left">
+                    <script language="javascript" type="text/javascript">
+<!--
+var dt=new Date(); var d=dt.getDate(); var m=dt.getMonth(); var y=dt.getFullYear(); var w=dt.getDay();
+var months = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var days = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+document.write(days[w]+", "+months[m]+" "+d+", "+y);
+//-->
+                </script><br />
+                    <a href="http://www.systematixindia.com/index.asp">
+                    Powered by Systematix Infotech Pvt. Ltd.</a></p>
+               </div>
+    </form>
+</body>
+</html>

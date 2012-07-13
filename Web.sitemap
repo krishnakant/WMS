@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode url="/WMS/View/Forms/Master/FileImport.aspx" title="Import"  description="Import" >
+   
+    <siteMapNode url="/WMS/View/Forms/Exceptions/Exception.aspx" title="Exception"  description="Exception" >
+      <siteMapNode url="/WMS/View/Forms/Exceptions/ItemException.aspx" title="Item Exception"  description="Item Exception" >
+        
+        
+      </siteMapNode>
+
+      <siteMapNode url="/WMS/View/Forms/Exceptions/ModelException.aspx" title="Model Exception"  description="Model Exception" >
+
+
+      </siteMapNode>
+      <siteMapNode url="/WMS/View/Forms/Exceptions/CulpritException.aspx" title="Culprit Exception"  description="Culprit Exception" >
+
+
+      </siteMapNode>
+      <siteMapNode url="/WMS/View/Forms/Exceptions/DefectException.aspx" title="Defect Exception"  description="Defect Exception" >
+
+
+      </siteMapNode>
+      <siteMapNode url="/WMS/View/Forms/Exceptions/CVoiceException.aspx" title="Customer Voice Exception"  description="Customer Voice Exception" >
+
+
+      </siteMapNode>
+      
+    </siteMapNode>
+    <siteMapNode url="/WMS/View/Forms/Reports/NotAssignGroupDetail.aspx" title="Not Assign Code"  description="Not Assign Code" >
+      <siteMapNode url="/WMS/View/Forms/Configurator/ProductGroupMapping.aspx" title="Product Code"  description="Product Code" >
+
+
+      </siteMapNode>
+
+      <siteMapNode url="/WMS/View/Forms/Configurator/CulpritConfigurator.aspx" title="Culprit Code"  description="Culprit Code" >
+
+
+      </siteMapNode>
+      <siteMapNode url="/WMS/View/Forms/Configurator/DefectConfigurator.aspx" title="Defect Code"  description="Defect Code" >
+
+
+      </siteMapNode>
+      <siteMapNode url="/WMS/View/Forms/Configurator/CVoiceConfigurator.aspx" title="Customer Voice Code"  description="Customer Voice Code" >
+
+
+      </siteMapNode>
+      <siteMapNode url="/WMS/View/Forms/Configurator/ItemConfigurator.aspx" title="Item Code"  description="Item Code" >
+
+
+      </siteMapNode>
+
+    </siteMapNode>
+    <siteMapNode url="/WMS/View/Forms/Reports/ACRDynamicReport.aspx" title="Dynamic Acr selection "  description="Dynamic Acr selection" >
+      <siteMapNode url="/WMS/View/Forms/Reports/ACRGenerateReport.aspx" title="Generate Report"  description="Generate Report" >
+        
+        
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="/WMS/View/Forms/Setting/SeetingLink.aspx" title="Group Setting"  description="Group Setting" >
+
+      <siteMapNode url="/WMS/View/Forms/Setting/CulpritGroupSetting.aspx" title="Culprit Group Setting"  description="Culprit Group Setting" >
+        
+      </siteMapNode>
+
+      <siteMapNode url="/WMS/View/Forms/Setting/CustomerVoiceGroupSetting.aspx" title="Customer Voice Group Setting"  description="Customer Voice Group Setting" >
+
+      </siteMapNode>
+
+      <siteMapNode url="/WMS/View/Forms/Setting/DefectGroupSetting.aspx" title="Defect Group Setting"  description="Defect Group Setting" >
+
+      </siteMapNode>
+      <siteMapNode url="/WMS/View/Forms/Setting/ItemGroupSettingt.aspx" title="Item Group Setting"  description="Item Group Setting" >
+
+      </siteMapNode>
+      <siteMapNode url="/WMS/View/Forms/Setting/ModelGroupSetting.aspx" title="Model Group Setting"  description="Model Group Setting" >
+
+      </siteMapNode>
+      </siteMapNode>
+    
+    <siteMapNode url="/WMS/View/Forms/Reports/ReportLink.aspx" title="Acr Report"  description="Acr Report" >
+
+      <siteMapNode url="/WMS/View/Forms/Reports/ModelWiseACRDetail.aspx" title="Model Group Wise ACR Detail"  description="Model Group Wise ACR Detail" >
+
+      </siteMapNode>
+
+      <siteMapNode url="/WMS/View/Forms/Reports/CulpritWiseACRDetail.aspx" title="Culprit Group Wise ACR Detail"  description="Culprit Group Wise ACR Detail" >
+
+      </siteMapNode>
+
+      <siteMapNode url="/WMS/View/Forms/Reports/CvoiceGRoupWiseACR.aspx" title="Customer Voice Group Wise ACR Detail"  description="Customer Voice Group Wise ACR Detail" >
+
+      </siteMapNode>
+      <siteMapNode url="/WMS/View/Forms/Reports/ItemGRoupWiseACRDetail.aspx" title="Item Group Wise ACR Detail"  description="Item Group Wise ACR Detail" >
+
+      </siteMapNode>
+      <siteMapNode url="/WMS/View/Forms/Reports/DefectGroupWiseACR.aspx" title="Defect Group Wise ACR Detail"  description="Defect Group Wise ACR Detail" >
+
+      </siteMapNode>
+      <siteMapNode url="/WMS/View/Forms/Reports/DealerWiseACR.aspx" title="Dealer Wise ACR Detail"  description="Dealer Wise ACR Detail" >
+
+      </siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
+ 
+</siteMap>

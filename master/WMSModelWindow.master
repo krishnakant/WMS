@@ -1,0 +1,93 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="WMSModelWindow.master.cs"
+    Inherits="SSMModelWindow" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <base target="_self" />
+    <title>Service System Management</title>
+    <link href="/WMS/style/style.css" rel="stylesheet" type="text/css" />
+    <link href="/WMS/style/Calender.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/WMS/JS/ScrollGrid.js"></script>
+    <script type="text/javascript" src="/WMS/JS/Utility.js"></script>
+    <link href="/WMS/style/dhtml-horiz.css" rel="stylesheet" type="text/css" />
+    <link href="/WMS/style/emsStyleSheet.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/WMS/JS/ems.js"></script>
+    <script type="text/javascript" src="/WMS/JS/dhtml.js"></script>
+
+
+    <script type="text/javascript">
+    
+    function stoperror()
+    { 
+        return true; 
+    }
+    window.onerror=stoperror
+    </script>
+
+    <link href="/SSMgmt/App_Themes/emsskin/emsStyleSheet.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <% Response.CacheControl = "no-cache"; %>
+        <% Response.AddHeader("Pragma", "no-cache"); %>
+        <% Response.Expires = -1; %>
+        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="cssTable">
+            <tr>
+                <td valign="top" style="background: #FFFFFF;">
+                    <!-- Menu bar -->
+                    <table border="0" cellspacing="0" cellpadding="0" align="center">
+                        <!--PAGE TITLE ENDS HERE -->
+                        <tbody id="SSMgmtContentBody">
+                            <tr>
+                                <td class="cssContentBorderLeft">
+                                </td>
+                                <td style="padding: 5px; padding-top: 10px; padding-left: 7px;" valign="top">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                                <td class="cssContentBorderRight">
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tr>
+                            <td>
+                                <img src="/SSMgmt/images/content_border_btm_left.gif" alt="" width="8" height="5"
+                                    border="0" /></td>
+                            <td class="cssContentBorderBottomBG">
+                            </td>
+                            <td>
+                                <img src="/SSMgmt/images/content_border_btm_right.gif" alt="" width="13" height="5"
+                                    border="0" /></td>
+                        </tr>
+                    </table>
+                    <!--FOOTER STARTS HERE -->
+                    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="blue_bg"
+                        style="margin-top: 10px;">
+                        <tr>
+                            <td class="Footertimeinner">
+
+                                <script language="javascript" type="text/javascript">
+<!--
+var dt=new Date(); var d=dt.getDate(); var m=dt.getMonth(); var y=dt.getFullYear(); var w=dt.getDay();
+var months = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var days = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+document.write(days[w]+", "+months[m]+" "+d+", "+y);
+//-->
+                                </script>
+
+                            </td>
+                            <td>
+                            </td>
+                            <td align="right" class="cssCopyrightinner">
+                                Copyright SSM |&nbsp;<span class="inner"><a href="http://www.systematixindia.com/index.asp"
+                                    target="_blank">Powered by Systematix Infotech Pvt. Ltd.</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <asp:HiddenField ID="hdnSHQ" runat="server" Value="0" />
+    </form>
+</body>
+</html>

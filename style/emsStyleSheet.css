@@ -1,0 +1,298 @@
+﻿fake{
+}
+*{ font-size:10px;}
+body {
+	padding: 0px;
+	margin:0 auto;
+	background-color: #ffffff;
+	font-family:"Tahoma";
+	font-size:11px;
+	color:#000000;
+}
+a{
+	text-decoration:none;
+	color:#0062C4;
+}
+.checkBoxBackgroudEnable
+{
+ background-image: url(/WMS/images/check-cross.gif);
+  background-repeat:no-repeat;
+}
+.checkBoxBackgroudDisable
+{
+background-image: url(/WMS/images/checkbox-blank.gif);
+background-repeat:no-repeat;
+}
+a:hover{
+	text-decoration:underline;
+	color:#003399;
+}
+.cssCompanyName {
+	font-family: Tahoma;
+	font-size: 22pt;
+	font-weight: bold;
+	color: #4d89d1;
+	padding:15px 0 0 25px;
+	text-decoration: none;
+}
+.blue_bg{background: url(/WMS/images/bluebg.jpg) repeat-x; height:22px; width:100%;}
+.loginbg{background: url(../../images/prelogin_bg.jpg) no-repeat; height:274px; width:503px;}
+.loginbgcs{background:url(../../images/csilogin_bg.jpg) no-repeat; height:274px; width:503px;}
+.login_table{ margin:100px 0 0 29px;}
+.headerbg{background: url(/WMS/images/headerbg.jpg) repeat-x; height:105px; width:100%;}
+.header_left{ padding-top:25px;}
+html* .header_left{ padding-top:23px;}
+.inner a{ color:#ffffff; font-size:11px;}
+.inner a:hover{ color:#e4e4e4; font-size:11px;}
+.cssCopyrightinner{ /* Definition for the copyright text in Footer*/
+	font-family:"Tahoma";
+	font-size:10px;
+	color:#ffffff;
+	text-decoration:none;
+	text-align: right;
+}
+.Footertimeinner{
+	font: 10px Tahoma;
+	color: #ffffff;
+	text-decoration: none;
+}
+/************* LEFT AND RIGHT PANEL WIDTH *********************/
+.cssRightPanel{
+	width:80%;
+}
+.cssLeftPanel{
+	width:20%;
+}
+/***********************************************************/
+.cssWelcomeUser {
+	color: #000000;
+	text-decoration: none;
+	padding: 5px 5px 0px 0px;
+	float: right;
+	font: 10px Tahoma;
+}
+hr{
+	margin: 0px;
+	padding: 0px;
+	height: 1px;
+	width: 100%;
+	border: 1px solid #CCCCCC;
+}
+.cssLogout{
+	font: 10px Tahoma;
+	color:Blue;
+	font-weight:bold;
+	color: #000000;
+	text-decoration: none;
+	top:4px;
+	position:relative;
+	padding-right:10px;
+}
+.cssFooterTime{
+	font: 9px Tahoma;
+	color: #666666;
+	text-decoration: none;
+}
+.cssLogout a{
+	color: #000000;
+	text-decoration: none;
+}
+.cssRedText{
+	color:#CC0000;
+}
+.cssHRBlue{
+	border: 1px solid #ADCEE9;
+}
+.cssHRGrey{
+	border: 1px solid #d5d5d5;
+}
+/***************************************************/
+/* TNB MENUS */
+.cssTNBMenu{
+	font-weight:bold;
+	font-size:11px;
+	color:#000000;
+	padding-top: 6px;
+	padding-right: 15px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+}
+a.cssTNBMenu
+{
+    color:#FFFFFF;	
+	text-decoration:none;
+}
+a.cssTNBMenu:hover{
+	color:#000000;
+	text-decoration:none;
+}
+ a.DynamicHoverStyle
+{
+    color:#FFFFFF;
+    background-color:#006699;
+ }
+ a.DynamicHoverStyle:hover
+{
+    color:#FFFFFF;
+ }
+ .DynamicMenuStyle
+ {
+    border: ridge 1px #006699;
+   }
+.DynamicMenuItemStyle
+{
+    color:#FFFFFF;
+    background-color:#C0C0FF;
+    padding:2px 5px 2px 5px;
+    margin: 1px 1px 0px 1px;
+    } 
+a.DynamicMenuItemStyle
+{
+    color:#000000;
+    }
+a.StaticHoverStyle:hover
+{
+    color:#FFFFFF;
+    }
+/***************************************************/
+/* LEFT MENUS */
+ul#leftMenu{
+	display: block;
+	margin:0px;
+	padding:0px;
+	list-style-type: none;
+}
+ul#leftMenu li{
+	color:#000000;
+	font-weight:bold;
+	padding:5px 0px;
+}
+/***************************************************/
+#emsFooter { /* Definition for the Footer Appreance */
+	background-color:#CCCCCC;
+	margin: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 25px;
+	border-top: 1px solid #FFFFFF;
+	border-right: 0px solid #FFFFFF;
+	border-bottom: 0px solid #FFFFFF;
+	border-left: 0px solid #FFFFFF;
+	background: #e7e7e7;
+}
+.cssCopyrightInfo{ /* Definition for the copyright text in Footer*/
+	font-family:"Tahoma";
+	font-size:10px;
+	color:#666666;
+	text-decoration:none;
+	text-align: right;
+}
+.cssDisclaimer{ /* Definition for the copyright text in Footer*/
+	font-family:"Tahoma";
+	font-size:9px;
+	color:#666666;
+	text-decoration:none;
+	text-align: center;
+}
+.cssSmallText{ 
+	font-family:"Tahoma";
+	font-size:9px;
+	text-decoration:none;
+}
+.cssWhiteBorder{
+	border: 1px solid #FFFFFF;
+	font-family: "Tahoma";
+    font-size: 10px;
+}
+/***************************************************/
+/* GENERAL SETTINGS FOR ALL TEXT STYLES */
+.cssPageText{
+	color:#000000;
+	text-decoration:none;
+	font: 10px/17px Tahoma;
+}
+.cssText{
+	color:#000000;
+	text-decoration:none;
+	font: 10px Tahoma;
+}
+/****************************************************************/
+/* GENERAL SETTINGS FOR ALL BUTTONPANEL */
+.cssButtonPanelCenter{
+	padding: 3px 8px 3px 0px;
+	margin: 0px;
+	text-align: center;
+	background-color:#ADCEE9;
+}
+.cssButtonPanel{
+	padding: 3px 8px 3px 0px;
+	margin: 0px;
+	text-align: right;
+	width:99.2%;
+	background-color:#ADCEE9;
+}
+/********************************************************/
+/* GENERAL SETTINGS FOR ALL FORMS */
+form{
+	margin:0px;
+	padding:0px;
+}
+.cssNextPreviousTab{ /* General Next & Previous Tab Button Definition */
+	font: bold 10px Tahoma;
+	height: 20px;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	border-left: 1px solid #FFFFFF;
+	cursor:pointer;
+}
+.cssPageTitle{
+	font: bold 12px Tahoma;
+	color:#FFFFFF;
+}
+.cssPageTitleBG{
+	background-image: url(/WMS/images/pagetitle_bg.gif);
+	background-attachment: scroll;
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 30px;
+}
+.cssContentBorderLeft{
+	background-image: url(/WMS/images/content_border_left.gif);
+	background-attachment: scroll;
+	background-repeat: repeat-y;
+	background-position: left top;
+	width:8px;
+}
+.cssContentBorderRight{
+	background-image: url(/WMS/images/content_border_right.gif);
+	background-attachment: scroll;
+	background-repeat: repeat-y;
+	background-position: right top;
+	width:13px;
+}
+.cssContentBorderBottomBG{
+	background-image: url(/WMS/images/content_border_btm_bg.gif);
+	background-attachment: scroll;
+	background-repeat: repeat-x;
+	width:100%;
+	background-position: left top;
+	height: 5px;
+}
+/***************************************************/
+/* GRID SETTINGS FOR ALL TEXT STYLES */
+/***********************************************/
+/***************for new label start here********************************/
+.csslegendtext{position:relative; width:130px; left:0; background-color:#9FD0EB; font-size:11px; font-weight:bold; color:#003366; line-height:18px; height:20px; text-align:center; vertical-align:bottom;}
+.bordertable{border:solid 1px #ADCEE9; padding:5px;}
+.cssdivgrid{height:130px; width:100%; overflow-y:auto;}
+.cssbold{font-weight:bold;}
+.font-large{font: bold 11px Tahoma; text-decoration: none; color: #003366;}
+/***************for new label end here********************************/
+/***************************************************/
+/* GENERAL SETTINGS FOR ALL LEGENDS */
+/***************************************************************/
+/* GENERAL TABS DEFINITION*/
+.cssmarg{ margin-top:3px;}
+html* .cssmarg{ margin-top:-4px;}
+.cssCursor{cursor:pointer;}
